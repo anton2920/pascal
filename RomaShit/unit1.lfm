@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 3407
+  Height = 141
+  Top = 110
+  Width = 286
+  Caption = 'Log In'
+  ClientHeight = 141
+  ClientWidth = 286
+  LCLVersion = '1.6.4.0'
+  Visible = True
+  object LabeledEdit1: TLabeledEdit
+    Left = 48
+    Height = 21
+    Top = 40
+    Width = 80
+    EditLabel.AnchorSideLeft.Control = LabeledEdit1
+    EditLabel.AnchorSideRight.Control = LabeledEdit1
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = LabeledEdit1
+    EditLabel.Left = 48
+    EditLabel.Height = 15
+    EditLabel.Top = 22
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Login'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 48
+    Height = 21
+    Top = 96
+    Width = 82
+    EditLabel.AnchorSideLeft.Control = LabeledEdit2
+    EditLabel.AnchorSideRight.Control = LabeledEdit2
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = LabeledEdit2
+    EditLabel.Left = 48
+    EditLabel.Height = 15
+    EditLabel.Top = 78
+    EditLabel.Width = 82
+    EditLabel.Caption = 'Password'
+    EditLabel.ParentColor = False
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 168
+    Height = 30
+    Top = 96
+    Width = 91
+    Caption = '&Apply'
+    Default = True
+    GlyphShowMode = gsmAlways
+    Kind = bkYes
+    ModalResult = 6
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 168
+    Height = 30
+    Top = 48
+    Width = 88
+    Caption = '&Create'
+    Kind = bkAll
+    ModalResult = 8
+    OnClick = BitBtn2Click
+    TabOrder = 3
+  end
+end

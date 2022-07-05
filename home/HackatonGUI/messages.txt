@@ -1,0 +1,16 @@
+Hint: (11030) Start of reading config file /etc/fpc.cfg
+Hint: (11031) End of reading config file /etc/fpc.cfg
+Free Pascal Compiler version 3.0.2 [2017/02/25] for x86_64
+Copyright (c) 1993-2017 by Florian Klaempfl and others
+(1002) Target OS: Linux for x86-64
+(3104) Compiling /tmp/project1.lpr
+(3104) Compiling unit1.pas
+(9022) Compiling resource /tmp/lib/x86_64-linux/project1.or
+/usr/bin/ld: warning: /tmp/link.res contains output sections; did you forget -T?
+(9015) Linking /tmp/project1
+/usr/bin/ld: /usr/lib/fpc/3.0.2/units/x86_64-linux/rtl/cprt0.o: нераспознанное перемещение (0x2a) в разделе «.text»
+/usr/bin/ld: final link failed: Некорректное значение
+/tmp/project1.lpr(20,1) Error: (9013) Error while linking
+/tmp/project1.lpr(20,1) Fatal: (10026) There were 1 errors compiling module, stopping
+Fatal: (1018) Compilation aborted
+Error: /usr/bin/ppcx64 returned an error exitcode

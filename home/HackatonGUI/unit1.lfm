@@ -1,0 +1,45 @@
+object Form1: TForm1
+  Left = 2280
+  Height = 194
+  Top = 834
+  Width = 713
+  BorderStyle = bsDialog
+  Caption = 'Graph'
+  ClientHeight = 194
+  ClientWidth = 713
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 96
+    Height = 27
+    Top = 16
+    Width = 515
+    Caption = 'Регион - 32. Математические исследования.'
+    Font.Height = -22
+    Font.Name = 'Sans'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 80
+    Top = 95
+    Width = 480
+    Caption = 'Запуск'
+    Font.Height = -34
+    Font.Name = 'Sans'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 528
+    Height = 80
+    Top = 95
+    Width = 176
+    Caption = 'Quit'
+    Font.Height = -39
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+end

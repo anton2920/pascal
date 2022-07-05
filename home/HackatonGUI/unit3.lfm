@@ -1,0 +1,19 @@
+object Form3: TForm3
+  Left = 2575
+  Height = 211
+  Top = 356
+  Width = 589
+  BorderStyle = bsDialog
+  Caption = 'Form3'
+  ClientHeight = 211
+  ClientWidth = 589
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 160
+    Height = 15
+    Top = 16
+    Width = 159
+    Caption = 'Произвольные функции'
+    ParentColor = False
+  end
+end
