@@ -1,2 +1,2 @@
 # pascal
-Various programs on Pascal
+Various programs in Pascal
